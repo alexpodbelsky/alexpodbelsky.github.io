@@ -1,0 +1,66 @@
+html,body,h1,h2,h3,h4,h5,div,ul,li,a,p {font-family: 'Ubuntu', sans-serif!important; cursor: vertical-text;}
+#background {background: url(../img/background.gif) repeat 5% 5%;position: fixed;top: 0; left: 0; right: 0; bottom: 0;z-index: 100;}
+#midground {background: url(../img/midground.png) repeat 20% 20%;position: fixed;top: 0; left: 0; right: 0; bottom: 0;z-index: 100;}
+#foreground {background: url(../img/foreground.png) repeat 90% 110%;position: fixed;top: 0; left: 0; right: 0; bottom: 0;z-index: 200;}
+#talk {color: #fff; z-index: 311; position: fixed; right: 25px; bottom: 25px}
+#talk i {font-size: 35px;}
+.note {animation-name: note; animation-duration: 3s; animation-iteration-count: infinite;}
+@keyframes note {
+  0%   {color: yellow;}
+  25%  {color: orange;}
+  50%  {color: red;}
+  100%  {color: orange;}
+}
+
+h1 {font-size: 42px; line-height: 1; margin: 0 0 10px 0;color: #fff; text-transform: uppercase; letter-spacing: 15}
+h2 {font-size: 20px; line-height: 1; margin: 0 0 1px 0;color: #fff;}
+h3 {font-weight: 400;margin: 10px 0; color: red; font-size: 18px}
+h4 {font-size: 16px;}
+p {color: #ccc; font-weight: 300; font-size: 0.9rem; line-height: 1.5}
+a {text-decoration: none;}
+hr {border-top: 1px solid #2b2b2b!important}
+.w3-text-teal {color: #ff0000!important}
+
+#header {background-color: rgba(0,0,0,0.7); text-align: center; padding: 25px}
+#header h1 {margin-top: 30px; text-transform: uppercase;}
+#header span {background-color: red; font-size: 17px; padding: 7px 17px; margin-top: 25px; text-transform: uppercase;}
+.emblem {position: relative; top:17px;}
+.line {border-bottom: solid #ff0000 2px; padding-top: 2px; margin: 0 auto; max-width: 870px; margin-top: 20px;}
+.line:hover {box-shadow: 0px 0px 4px 4px #a2000099; transition: 0.7s}
+#contact {margin: 0 auto; max-width: 950px; text-align: center;}
+#contact ul li {display: inline-block; list-style: none; margin-right: 15px; text-transform: uppercase; font-size: 13px}
+#contact .fas {margin-right: 5px;}
+#content {background-color: rgba(0,0,0,0.7); overflow: hidden; padding-top: 25px;}
+#content h2 {padding-left: 15px; color: #ccc}
+.about {overflow: hidden; color: #fff; padding: 32px 64px 0px 64px; text-align: center;}
+ul li {font-size: 0.9rem; color: #ccc; list-style-type: square;}
+ul li:hover {color: #fff; cursor: pointer;}
+
+#footer {background-color: rgba(0,0,0,0.7); color: #fff; text-transform: uppercase; font-size: 15px}
+#footer p {font-size: 10px; color: #fff}
+#footer .fab {font-size: 18px; margin-top: 10px;}
+.fa-html5 {color: red;} .fa-css3-alt {color: blue;} .fa-js {color: orange} .fa-ubuntu {color: yellow}
+
+
+
+#sidebar {width: 160px;float: left;margin-right: 20px;}
+#main-content {width: 540px;float: right;}
+
+#page-wrap {margin: 0 auto;position: relative; bottom: 0; z-index: 307; padding: 25px;}
+#top {border-left: 10px solid rgba(255,255,255,0.2);border-right: 10px solid rgba(255,255,255,0.2);background: rgba(0,0,0,0.7);overflow: hidden; padding: 25px;}
+.w3-white {border-left: 10px solid rgba(255,255,255,0.2);border-right: 10px solid rgba(255,255,255,0.2);background: rgba(0,0,0,0.7)!important;overflow: hidden; color: #aaa!important}
+
+.w3-teal {background-color: red!important}
+
+@media (max-width: 400px) {
+h1 {font-size: 2em; letter-spacing: 5px}
+#header span {font-size: 0.7em}
+.about {padding: 10px 25px 0px 25px}
+h2 {font-size: 1em}
+ul {padding: 0px;}
+}
+
+@media (max-width: 768px) {
+
+
+}
